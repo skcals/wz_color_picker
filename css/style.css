@@ -1,0 +1,84 @@
+
+
+body{
+  color: grey;
+  background: black;
+}
+h1{
+  padding: 0px;
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-family: 'Supermercado One', cursive;
+ text-shadow: 5px  5px 10px rgb(72, 74, 172);
+}
+
+.container{
+  width: 70%;
+  margin: 50px auto;
+  height: 600px;
+  background: white;
+  /* border:10px solid grey; */
+  box-shadow: 5px 5px 5px 2px #444;
+
+}
+
+.rgb-slider{
+  width: 42%;
+  margin: 30px;
+  padding: 40px;
+  border:1px solid #ccc;
+  float: left;
+  box-sizing: border-box;
+  background: black;
+}
+.show-color{
+  width: 42%;
+  height: 350px;
+  margin: 30px;
+  padding: 40px;
+  border:10px solid black;
+  float: right;
+  box-sizing: border-box;
+  background: black;
+}
+
+.color-value{
+  width:95%;
+  margin:10px auto;
+  text-align: center;
+  border:1px solid #ccc;
+  clear: both;
+  background: black;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+input[type="range"]{
+  width: 80%;
+  margin: auto;
+  height: 30px;
+}
+input[type="text"]{
+  width:500px;
+  margin: auto;
+  font-size: 30px;
+  border:2px solid grey;
+  padding: 10px;
+  text-align: center;
+  height: 50px;
+}
+
+p{
+  font-size: 30px;
+  color: rgb(251, 251, 251);
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+span{
+  font-size: 50px;
+  margin: 0px 30px;
+}
